@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  background-color: #282a56;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  flex-wrap: wrap;
+}
+
+.word {
+  max-width: max-content;
+  display: flex;
+  gap: 20px;
+}
+
+.word > span {
+  position: relative;
+  padding: 20px 30px;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90px;
+  max-height: 90px;
+  border: 6px solid grey;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.8s ease-in-out;
+}
+
+/* Sample CSS for the WHY word */
+
+.whyWLetter {
+  font-size: 72px;
+  font-weight: bold;
+  color: aqua;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: 'Piazolla', sans-serif;
+}
+
+.whyHLetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: darkgoldenrod;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Ceviche One', sans-serif;
+}
+
+.whyYLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
+}
+
+/* DID word */
+
+.didDLetter {
+}
+
+.didILetter {
+}
+
+.didDTwoLetter {
+}
+
+/* THE word */
+
+.theTLetter {
+}
+
+.theHLetter {
+}
+
+.theELetter {
+}
+
+/* FRONT-END word */
+
+.frontendFLetter {
+}
+
+.frontendRLetter {
+}
+
+.frontendOLetter {
+}
+
+.frontendNLetter {
+}
+
+.frontendTLetter {
+}
+
+.frontendELetter {
+}
+
+.frontendNTwoLetter {
+}
+
+.frontendDLetter {
+}
+
+/* DEVELOPER word */
+
+.developerDLetter {
+}
+.developerELetter {
+}
+.developerVLetter {
+}
+.developerETwoLetter {
+}
+.developerLLetter {
+}
+.developerOLetter {
+}
+.developerPLetter {
+}
+.developerEThreeLetter {
+}
+.developerRLetter {
+}
+
+/* TAKE word */
+
+.takeTLetter {
+}
+.takeALetter {
+}
+.takeKLetter {
+}
+.takeELetter {
+}
+
+/* UP word */
+
+.upULetter {
+}
+.upPLetter {
+}
+
+/* GARDENING word */
+
+.gardeningGLetter {
+}
+.gardeningALetter {
+}
+.gardeningRLetter {
+}
+.gardeningDLetter {
+}
+.gardeningELetter {
+}
+.gardeningNLetter {
+}
+.gardeningILetter {
+}
+.gardeningNTwoLetter {
+}
+.gardeningGTwoLetter {
+}
+
+/* BECAUSE word */
+
+.becauseBLetter {
+}
+.becauseELetter {
+}
+.becauseCLetter {
+}
+.becauseALetter {
+}
+.becauseULetter {
+}
+.becauseSLetter {
+}
+.becauseETwoLetter {
+}
+
+/* THEY word */
+
+.theyTLetter {
+}
+.theyHLetter {
+}
+.theyELetter {
+}
+.theyYLetter {
+}
+
+/* WANTED word */
+
+.wantedWLetter {
+}
+.wantedALetter {
+}
+.wantedNLetter {
+}
+.wantedTLetter {
+}
+.wantedELetter {
+}
+.wantedDLetter {
+}
+
+/* TO word */
+
+.toTLetter {
+}
+.toOLetter {
+}
+
+/* IMPROVE word */
+
+.improveILetter {
+}
+.improveMLetter {
+}
+.improvePLetter {
+}
+.improveRLetter {
+}
+.improveOLetter {
+}
+.improveVLetter {
+}
+.improveELetter {
+}
+
+/* THEIR word */
+
+.theirTLetter {
+}
+.theirHLetter {
+}
+.theirELetter {
+}
+.theirILetter {
+}
+.theirRLetter {
+}
+
+/* ROOT word */
+
+.rootRLetter {
+}
+.rootOLetter {
+}
+.rootOTwoLetter {
+}
+.rootTLetter {
+}
+
+/* SKILLS word */
+
+.skillsSLetter {
+}
+.skillsKLetter {
+}
+.skillsILetter {
+}
+.skillsLLetter {
+}
+.skillsLTwoLetter {
+}
+.skillsSTwoLetter {
+}
+
+/* SYMBOLS */
+
+.hyphen {
+}
+.exclamation-mark {
+}
+.question-mark {
+}
