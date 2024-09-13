@@ -9,5 +9,6 @@
     "Piazolla",
     "Piazzolla",
     "Raleway"
-  ]
+  ],
+  "liveServer.settings.port": 5551
 }

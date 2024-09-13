@@ -1,0 +1,16 @@
+{
+  "name": "css-ransom-note-unsolved",
+  "version": "1.0.0",
+  "description": "The CSS text styling assignment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "live-server": "npx live-server --port=5551"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
