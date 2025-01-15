@@ -35,7 +35,7 @@ This assignment should prove that a student is able to:
 - [ ] Fork the project to your github account
 - [ ] Clone the project to your computer
 - [ ] Open the project in VSCode with `code <cloned_repo_folder_name>`
-- [ ] **This Assignment is NOT tested. You can use alll the desired creativity!**
+- [ ] **This Assignment is NOT tested. You can use all the desired creativity!**
 - [ ] All the tasks of the "Specific requirements" section MUST be solved
 - [ ] **The project's file/folder structure should NOT be edited!**
 - [ ] **The index.html file should NOT be edited!** The only acceptable change are additional classes added to elements.
