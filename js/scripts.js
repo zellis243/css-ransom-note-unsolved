@@ -162,7 +162,7 @@ document.addEventListener("DOMContentLoaded", () => {
     //   element.style.fontFamily = `'${fontFamily}', sans-serif`;
     // }
 
-    // element.style.backgroundColor = `#${getRandomColor()}`;
+    element.style.backgroundColor = `#${getRandomColor()}`;
 
     element.addEventListener("mouseover", (e) => {
       e.target.style.transform = `rotate(${degValue}deg) skew(${skewArr[0]}deg, ${skewArr[1]}deg) scale(1.2)`;
