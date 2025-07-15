@@ -82,7 +82,8 @@ body {
 
 /* DID word */
 
-.didDLetter {
+.didDLetter,
+.didDTwoLetter {
   font-size: 100px;
   font-weight: medium;
   color: palevioletred;
@@ -101,19 +102,13 @@ body {
 }
 
 .didDTwoLetter {
-  font-size: 50px;
-  font-weight: 850;
-  color: forestgreen;
-  text-decoration: dotted;
-  text-transform: uppercase;
-  font-family: "Raleway Dots", pixelated, sans-serif;
 }
 
 /* THE word */
 
 .theTLetter {
   font-size: 80px;
-  font-weight: 600;
+  font-weight: 400;
   color: blueviolet;
   text-decoration: underline;
   text-transform: lowercase;
@@ -131,7 +126,7 @@ body {
 
 .theELetter {
   font-size: 36px;
-  font-weight: 900;
+  font-weight: 700;
   color: darkorange;
   text-decoration: line-through;
   text-transform: capitalize;
@@ -152,7 +147,7 @@ body {
 
 .frontendRLetter {
   font-size: 66px;
-  font-weight: 800;
+  font-weight: normal;
   color: darkslateblue;
   text-decoration: none;
   text-transform: uppercase;
